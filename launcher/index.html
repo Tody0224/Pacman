@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Pac-Launcher</title>
+    </head>
+    <body>
+        <form id="form" action="http://localhost:5000/play" method="post">
+            <div id="resolution">
+                <label for="screen">Screen Size</label>
+                <select id="screen" name="screen" required>
+                    <option value="1920x1080">1920x1080</option>
+                </select>
+            </div>
+            <div id="full_screen">
+                <label for="fullscreen">Fullscreen: </label>
+                <input id="fullscreen" name="fullscreen" type="checkbox">
+            </div>
+            <button type="submit">Play</button>
+        </form>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
