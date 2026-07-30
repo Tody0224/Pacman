@@ -1,0 +1,14 @@
+[project]
+name = "hand-controller"
+version = "0.1.0"
+description = "Controle de mãos utilizando MediaPipe."
+requires-python = ">=3.12"
+
+dependencies = [
+    "opencv-python",
+    "mediapipe",
+    "pygame",
+]
+
+[tool.uv]
+package = false
