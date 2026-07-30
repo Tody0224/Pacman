@@ -12,7 +12,7 @@ venv_create:
 install: venv_create
 	$(PIP) install -r $(REQUIREMENTS)
 
-run:
+run: install
 	$(PYTHON) $(NAME)
 
 debug:
